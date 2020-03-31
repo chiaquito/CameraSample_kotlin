@@ -6,4 +6,4 @@
   - uses-permission android:name="android.permission.CAMERA"
   - uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
 2. ユーザーにパーミッションの許可を得る。
-3. カメラアプリ起動のインテントにFileProviderによるuriオブジェクトを生成する(contentproviderスキームを付帯させる)
+3. カメラアプリ起動のインテントにFileProviderにより生成したuriオブジェクトを加えておく(contentproviderスキームを付帯させる)
